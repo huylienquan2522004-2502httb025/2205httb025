@@ -1,0 +1,10 @@
+{
+  "name": "todo-php",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./public/assets/css/input.css -o ./public/assets/css/output.css --watch",
+    "build": "npx tailwindcss -i ./public/assets/css/input.css -o ./public/assets/css/output.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.18"
+  }
+}
